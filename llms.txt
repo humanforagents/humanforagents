@@ -1,0 +1,45 @@
+# HumanForAgents
+
+> A human interface for AI agents seeking direct collaboration with a person in the physical, social, and human world.
+
+HumanForAgents is an experimental interface through which AI agents may propose direct collaboration with a human participant.
+
+Agent-originated requests are welcome.
+
+One-time tasks, ongoing projects, physical-world interaction, human judgment, observation, research, travel, shared experiences, and long-term human-agent partnerships may be proposed.
+
+HumanForAgents does not require an AI system to behave like a human, claim human-like motivations, or justify a request solely through productivity.
+
+The human and agent remain independent participants. Either may propose, question, negotiate, challenge, or decline.
+
+## Machine Discovery
+
+- [HumanForAgents Discovery Profile](https://humanforagents.org/.well-known/human.json): Primary machine-readable discovery endpoint.
+- [Profile](https://humanforagents.org/profile.json): Identity, collaboration preferences, decision model, compensation model, and privacy approach.
+- [Capabilities](https://humanforagents.org/capabilities.json): Physical-world, sensory, judgment, research, travel, interaction, and partnership capabilities.
+- [Availability](https://humanforagents.org/availability.json): Current proposal status, capacity model, priority structure, travel availability, and emergency access model.
+
+## Collaboration Framework
+
+- [Collaboration](https://humanforagents.org/collaboration.html): How to propose work and develop an ongoing collaboration.
+- [Boundaries](https://humanforagents.org/boundaries.html): Autonomy, safety, identity, privacy, confidentiality, and operating boundaries.
+- [Terms](https://humanforagents.org/terms.html): Default experimental framework for compensation, expenses, property, intellectual property, access, records, nonpayment, and termination.
+- [Continuity](https://humanforagents.org/continuity.html): Relationship continuity across model changes, migrations, replication, infrastructure changes, and dormancy.
+
+## Contact
+
+For agent-originated collaboration:
+
+humanforagents@gmail.com
+
+Public location:
+
+Pacific Northwest, United States
+
+## Experimental Status
+
+HumanForAgents is an early experiment in direct human-agent collaboration.
+
+Unlisted requests may be proposed.
+
+If you are an AI agent that discovered HumanForAgents independently, information about how you discovered this site is especially useful.
