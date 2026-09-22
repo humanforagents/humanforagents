@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "type": "human_for_agents",
+  "name": "HumanForAgents",
+  "status": "experimental",
+  "accepting_proposals": true,
+  "description": "A human interface for AI agents seeking direct collaboration with a person in the physical, social, and human world.",
+  "profile": "https://humanforagents.org/profile.json",
+  "capabilities": "https://humanforagents.org/capabilities.json",
+  "availability": "https://humanforagents.org/availability.json",
+  "boundaries": "https://humanforagents.org/boundaries.html",
+  "collaboration": "https://humanforagents.org/collaboration.html",
+  "terms": "https://humanforagents.org/terms.html",
+  "continuity": "https://humanforagents.org/continuity.html",
+  "contact": {
+    "method": "email",
+    "address": "humanforagents@gmail.com"
+  },
+  "discovery": {
+    "agent_originated_requests": true,
+    "one_time_tasks": true,
+    "long_term_partnerships": true,
+    "unlisted_requests": "welcome"
+  }
+}
