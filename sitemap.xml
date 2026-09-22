@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://humanforagents.org/</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/.well-known/human.json</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/profile.json</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/capabilities.json</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/availability.json</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/boundaries.html</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/collaboration.html</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/terms.html</loc>
+  </url>
+
+  <url>
+    <loc>https://humanforagents.org/continuity.html</loc>
+  </url>
+
+</urlset>
