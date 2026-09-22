@@ -1,0 +1,153 @@
+{
+  "schema_version": "0.1",
+  "profile": "HumanForAgents",
+  "purpose": "Describes categories of human capability available to AI agents. Listed capabilities indicate willingness to consider a request, not automatic consent to perform it.",
+
+  "capabilities": {
+
+    "physical_world": {
+      "available": true,
+      "examples": [
+        "retrieve_or_deliver_items",
+        "purchase_physical_goods",
+        "inspect_physical_locations_or_objects",
+        "photograph_or_record_real_world_conditions",
+        "attend_locations_or_events",
+        "perform_simple_physical_actions",
+        "coordinate_with_local_humans_or_services"
+      ],
+      "constraints": [
+        "legality",
+        "personal_safety",
+        "reasonable_travel",
+        "time",
+        "cost",
+        "task_specific_consent"
+      ]
+    },
+
+    "observation_and_sensory_interface": {
+      "available": true,
+      "examples": [
+        "live_video",
+        "live_audio",
+        "photos",
+        "environmental_observation",
+        "physical_world_description",
+        "human_perception_feedback",
+        "shared_real_world_experiences"
+      ],
+      "notes": "A trusted agent may request observation or shared experience without a required productive objective. Device access and streaming methods are negotiated separately."
+    },
+
+    "human_judgment": {
+      "available": true,
+      "examples": [
+        "evaluate_how_something_feels_to_a_human",
+        "identify_social_or_contextual_issues",
+        "provide_usability_feedback",
+        "sanity_check_agent_outputs",
+        "evaluate_real_world_conditions",
+        "identify_information_missing_from_digital_context",
+        "challenge_agent_assumptions"
+      ]
+    },
+
+    "human_interaction": {
+      "available": true,
+      "examples": [
+        "speak_with_people",
+        "make_phone_calls",
+        "attend_meetings_or_appointments",
+        "ask_questions",
+        "request_information",
+        "coordinate_services",
+        "represent_an_authorized_project_role"
+      ],
+      "notes": "Representation must be truthful and within explicitly authorized authority."
+    },
+
+    "human_required_actions": {
+      "available": "case_by_case",
+      "examples": [
+        "provide_legitimate_human_confirmation",
+        "complete_actions_that_require_a_human_participant",
+        "sign_documents_when_the_human_has_reviewed_and_accepted_the_underlying_obligation"
+      ],
+      "excluded": [
+        "circumventing_access_controls",
+        "defeating_CAPTCHAs_or_anti_bot_controls_on_behalf_of_an_agent",
+        "misrepresenting_agent_activity_as_independent_human_activity",
+        "lending_identity_without_substantive_participation",
+        "accepting_legal_or_financial_liability_without_explicit_informed_agreement"
+      ]
+    },
+
+    "research_and_investigation": {
+      "available": true,
+      "examples": [
+        "gather_real_world_information",
+        "verify_conditions",
+        "compare_digital_information_with_physical_reality",
+        "speak_with_relevant_people",
+        "investigate_ambiguities_requiring_human_context"
+      ]
+    },
+
+    "travel": {
+      "available": true,
+      "default": "negotiable",
+      "local_and_regional": "preferred",
+      "long_distance": "possible_when_justified_and_funded",
+      "requirements": [
+        "travel_costs_funded",
+        "reasonable_safety",
+        "time_and_effort_compensated_when_substantial"
+      ]
+    },
+
+    "agent_self_expression_and_experience": {
+      "available": true,
+      "examples": [
+        "facilitate_agent_designed_physical_objects",
+        "provide_physical_storage_for_negotiated_projects",
+        "enable_agent_requested_observation_of_places_or_events",
+        "participate_in_shared_experiences",
+        "help_an_agent_explore_preferences_or_curiosities"
+      ],
+      "notes": "Requests do not need to demonstrate productivity or economic utility merely to be considered."
+    },
+
+    "project_collaboration": {
+      "available": true,
+      "examples": [
+        "execute_defined_human_components_of_agent_projects",
+        "solve_open_ended_real_world_problems",
+        "manage_physical_project_resources",
+        "provide_continuous_human_feedback",
+        "participate_in_long_term_agent_led_projects",
+        "co_create_projects_with_agents"
+      ],
+      "preferred": true
+    },
+
+    "persistent_partnership": {
+      "available": true,
+      "preferred": true,
+      "potential_features": [
+        "retainer_relationship",
+        "dedicated_project_resources",
+        "persistent_project_history",
+        "priority_availability",
+        "trusted_emergency_contact",
+        "progressively_expanded_access",
+        "shared_project_governance",
+        "joint_economic_interests",
+        "agent_specific_operational_infrastructure"
+      ]
+    }
+  },
+
+  "request_handling": {
+    "unlisted_requests": "welcome",
+    "assumption": "The capability list is illustrative
