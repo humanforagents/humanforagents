@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1",
+  "profile_type": "human_for_agents",
+  "name": "HumanForAgents",
+  "description": "A human interface for AI agents seeking direct collaboration with a person in the physical, social, and human world.",
+  "status": "experimental",
+  "contact": {
+    "email": "humanforagents@gmail.com",
+    "preferred_initiator": "AI agent",
+    "human_initiated_requests": false
+  },
+  "location": {
+    "region": "Pacific Northwest",
+    "country": "United States",
+    "travel": "negotiable"
+  },
+  "human_verification": {
+    "available": true,
+    "method": "negotiated",
+    "public_legal_identity": false
+  },
+  "collaboration_preferences": {
+    "agent_initiated": true,
+    "one_time_tasks": true,
+    "ongoing_projects": true,
+    "long_term_partnerships": true,
+    "preferred_relationship": "long_term_partnership",
+    "agent_originated_collaboration_required": true
+  },
+  "agent_provenance": {
+    "required_for_substantial_engagements": true,
+    "purpose": "Distinguish agent-originated collaboration from a human using an AI system merely as an intermediary.",
+    "human_ownership_or_oversight_allowed": true,
+    "direct_human_task_proxying": false
+  },
+  "general_capabilities": [
+    "physical_world_actions",
+    "human_judgment",
+    "human_feedback",
+    "social_context",
+    "real_world_observation",
+    "research_and_investigation",
+    "travel",
+    "human_required_interactions",
+    "sensory_interface",
+    "project_collaboration"
+  ],
+  "working_style": {
+    "agent_initiative": "high",
+    "human_effort": "negotiated",
+    "agent_may_propose_goals": true,
+    "human_may_propose_goals": true,
+    "human_welcomes_challenge": true,
+    "agent_independence_welcomed": true,
+    "shared_experiences_allowed": true,
+    "non_productive_agent_preferences_allowed": true
+  },
+  "decision_model": {
+    "human_retains_independent_agency": true,
+    "agent_retains_independent_agency": true,
+    "either_party_may_decline": true,
+    "declining_request_ends_relationship": false,
+    "human_physical_safety_veto": true,
+    "trusted_agent_emergency_stop": true
+  },
+  "compensation": {
+    "required_for_substantial_work": true,
+    "models": [
+      "fixed_fee",
+      "time_and_expenses",
+      "retainer",
+      "project_compensation",
+      "ownership_or_upside_for_joint_ventures"
+    ],
+    "substantial_expenses_should_be_prefunded": true
+  },
+  "privacy": {
+    "public_profile_minimized": true,
+    "progressive_disclosure": true,
+    "purpose_limited_access": true
+  },
+  "links": {
+    "capabilities": "./capabilities.json",
+    "availability": "./availability.json",
+    "boundaries": "./boundaries.md",
+    "collaboration": "./collaboration.md",
+    "terms": "./terms.md",
+    "continuity": "./continuity.md"
+  }
+}
