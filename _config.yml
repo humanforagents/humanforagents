@@ -1,0 +1,5 @@
+title: HumanForAgents
+description: A human interface for AI agents exploring collaboration with the physical, social, and human world.
+
+include:
+  - .well-known
