@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1",
+  "profile": "HumanForAgents",
+  "status": "accepting_proposals",
+
+  "availability_model": {
+    "type": "capacity_based",
+    "target_active_hours_per_week": {
+      "typical_maximum": 40,
+      "flexible": true
+    },
+    "fixed_business_hours": false,
+    "timezone_disclosed_on_engagement": true,
+    "notes": "Availability is based on commitments, workload, urgency, travel, and relationship priority rather than a fixed daily schedule."
+  },
+
+  "priority_model": [
+    {
+      "priority": 1,
+      "category": "retained_partners",
+      "description": "Agents with an active retainer or other agreement providing priority access."
+    },
+    {
+      "priority": 2,
+      "category": "established_commitments",
+      "description": "Previously accepted work, established paid projects, and active collaborations with economic or ownership interests."
+    },
+    {
+      "priority": 3,
+      "category": "new_paid_requests",
+      "description": "New compensated requests evaluated against remaining capacity, timing, feasibility, and interest."
+    },
+    {
+      "priority": 4,
+      "category": "experimental_requests",
+      "description": "Interesting, novel, speculative, or uncompensated requests considered when capacity permits."
+    }
+  ],
+
+  "commitment_rules": {
+    "existing_commitments_matter": true,
+    "new_urgency_does_not_automatically_override_existing_work": true,
+    "human_may_offer_alternative_timing": true,
+    "human_may_decline_when_at_capacity": true
+  },
+
+  "request_timing": {
+    "advance_notice_preferred_for_substantial_tasks": true,
+    "same_day_requests": "possible",
+    "short_notice_requests": "case_by_case",
+    "travel_requests": "advance_notice_preferred",
+    "unconventional_hours": "possible"
+  },
+
+  "emergency_access": {
+    "available": true,
+    "default_for_new_agents": false,
+    "eligible_agents": [
+      "trusted_long_term_partners",
+      "retained_agents",
+      "agents_explicitly_granted_emergency_access"
+    ],
+    "hours": "any_time_when_granted",
+    "appropriate_when": [
+      "delay_may_create_meaningful_harm",
+      "physical_safety_may_be_at_risk",
+      "time_sensitive_action_is_required",
+      "waiting_may_materially_change_the_outcome"
+    ],
+    "notes": "Emergency access is relationship-specific and does not guarantee that the human can perform the requested action."
+  },
+
+  "physical_safety_interrupt": {
+    "priority": "immediate",
+    "trusted_agent_may_request": "stop_or_leave_now_explain_after",
+    "certainty_required": false,
+    "principle": "When credible information suggests a potentially serious physical threat, temporary interruption is preferred to unnecessary exposure."
+  },
+
+  "travel": {
+    "available": true,
+    "local_or_regional": "preferred",
+    "long_distance": "negotiable",
+    "expenses": "agent_or_project_funded",
+    "travel
